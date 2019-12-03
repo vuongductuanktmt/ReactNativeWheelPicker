@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ElekenAgency/ReactNativeWheelPicker.git"
+    "url": "git+https://github.com/vuongductuanktmt/ReactNativeWheelPicker.git"
   },
   "keywords": [
     "react-component",
