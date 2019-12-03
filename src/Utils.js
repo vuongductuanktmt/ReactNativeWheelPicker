@@ -5,10 +5,12 @@
 
 import moment from 'moment'
 
-const AM = 'AM'
-const PM = 'PM'
+import 'moment/locale/vi'
+
+const AM = 'Sáng'
+const PM = 'Chiều'
 const YEAR = 365
-const TODAY = 'Today'
+const TODAY = 'Hôm nay'
 const ONE_DAY_IN_SECONDS = 86400;
 const ONE_SECOND = 1000;
 
