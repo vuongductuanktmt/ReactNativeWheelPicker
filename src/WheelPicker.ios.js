@@ -4,7 +4,8 @@
  * */
 
 import React from 'react'
-import { requireNativeComponent, PickerIOS, Picker, Text } from 'react-native'
+import {Picker} from '@react-native-community/picker';
+
 
 type Props = {
   data: Array<string>,
@@ -30,7 +31,7 @@ export default class WheelPicker extends React.Component<Props, State> {
       selectedItem: props.selectedItem
     }
   }
-  
+
   componentDidUpdate(prevProps: Props, prevState: State){
     if (prevState.selectedItem !== this.props.selectedItem){
       this.setState({ selectedItem: this.props.selectedItem })
