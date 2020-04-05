@@ -4,7 +4,8 @@
  * */
 
 import React from 'react'
-import { DatePickerIOS, StyleSheet, Dimensions } from 'react-native'
+import { StyleSheet, Dimensions } from 'react-native'
+import DateTimePicker from '@react-native-community/datetimepicker';
 
 type Props = {
   onDateSelected: Date => void,
@@ -29,7 +30,7 @@ export default class DatePicker extends React.Component<Props, State> {
 
   render(){
     return (
-        <DatePickerIOS
+        <DateTimePicker
           style={styles.picker}
           date={this.state.chosenDate}
           onDateChange={this.setDate}
