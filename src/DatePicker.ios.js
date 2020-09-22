@@ -31,6 +31,7 @@ export default class DatePicker extends React.Component<Props, State> {
   render(){
     return (
         <DateTimePicker
+          display="spinner"
           {...this.props}
           style={styles.picker}
           value={this.state.chosenDate}
