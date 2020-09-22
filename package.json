@@ -1,6 +1,6 @@
 {
   "name": "react-native-wheel-picker-android",
-  "version": "2.0.8",
+  "version": "2.0.9",
   "description": "Simple Wheel Picker for Android to use with react-native",
   "main": "index.js",
   "repository": {
@@ -23,8 +23,8 @@
   },
   "homepage": "https://github.com/ElekenAgency/ReactNativeWheelPicker",
   "dependencies": {
-    "moment": "2.22.0",
-    "@react-native-community/picker": "^1.3.0",
-    "@react-native-community/datetimepicker": "^2.3.1"
+    "moment": "latest",
+    "@react-native-community/picker": "latest",
+    "@react-native-community/datetimepicker": "latest"
   }
 }
